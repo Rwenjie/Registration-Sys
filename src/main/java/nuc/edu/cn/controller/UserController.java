@@ -12,5 +12,10 @@ public class UserController {
 		return "dfsdf";
 	}
 	
+	@GetMapping("/user")
+	public String usdrfString() {
+		return "fsdf";
+	}
+	
 	
 }
